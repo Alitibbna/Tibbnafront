@@ -1,0 +1,44 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+*, body, html {
+  font-family: Arial, Helvetica, sans-serif !important;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body, html {
+  overflow-x: hidden;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  color: rgb(17, 24, 39);
+  line-height: inherit;
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+  
+  .mobile-margin {
+    @apply mx-5;
+  }
+  
+  @media (min-width: 640px) {
+    .mobile-margin {
+      @apply mx-0;
+    }
+  }
+}
