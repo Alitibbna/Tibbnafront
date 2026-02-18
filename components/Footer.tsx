@@ -1,5 +1,6 @@
 import { Facebook, Twitter, Linkedin, Instagram } from 'lucide-react'
 import Image from 'next/image'
+import ContactForm from './ContactForm'
 
 export default function Footer() {
   return (
@@ -12,63 +13,7 @@ export default function Footer() {
         </div>
         
         <div className="max-w-2xl mx-auto">
-          <form className="space-y-6 mb-12">
-          <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
-            <div>
-              <label htmlFor="firstName" className="block text-sm font-medium text-gray-700 mb-2">
-                First name *
-              </label>
-              <input
-                type="text"
-                id="firstName"
-                required
-                className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-primary focus:border-transparent transition-all"
-              />
-            </div>
-            <div>
-              <label htmlFor="lastName" className="block text-sm font-medium text-gray-700 mb-2">
-                Last name *
-              </label>
-              <input
-                type="text"
-                id="lastName"
-                required
-                className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-primary focus:border-transparent transition-all"
-              />
-            </div>
-          </div>
-          
-          <div>
-            <label htmlFor="email" className="block text-sm font-medium text-gray-700 mb-2">
-              Email *
-            </label>
-            <input
-              type="email"
-              id="email"
-              required
-              className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-primary focus:border-transparent transition-all"
-            />
-          </div>
-          
-          <div>
-            <label htmlFor="message" className="block text-sm font-medium text-gray-700 mb-2">
-              Write a message
-            </label>
-            <textarea
-              id="message"
-              rows={5}
-              placeholder="Write a message"
-              className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-primary focus:border-transparent transition-all resize-none"
-            />
-          </div>
-          
-            <button
-              type="submit"
-              className="bg-[#558195] hover:bg-[#466a79] text-white px-6 py-3 rounded-full font-semibold text-lg shadow-lg hover:shadow-xl hover:scale-105 transition-all duration-300"
-            >
-              Submit
-            </button>
-          </form>
+          <ContactForm />
         </div>
       </div>
     </section>
