@@ -32,17 +32,20 @@ export default function Navbar() {
               <Image
                 src="/images/logo.png"
                 alt="Tibbna Logo"
-                width={60}
-                height={60}
+                width={50}
+                height={50}
                 className="object-contain"
               />
             </div>
-            <span className={`text-4xl font-bold transition-colors ${
-              isScrolled ? 'text-gray-900' : 'text-white'
-            }`}>Tibbna</span>
+            <span 
+              style={{ fontSize: '50px' }}
+              className={`font-bold transition-colors ${
+                isScrolled ? 'text-gray-900' : 'text-white'
+              }`}
+            >Tibbna</span>
           </div>
           
-          <div className="hidden md:flex space-x-8 mr-32">
+          <div className="hidden md:flex space-x-8">
             <a href="#home" className={`transition-colors duration-200 font-medium ${
               isScrolled ? 'text-gray-900 hover:text-[#558195]' : 'text-white hover:text-blue-300'
             }`}>

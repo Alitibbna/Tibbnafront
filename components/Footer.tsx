@@ -7,7 +7,7 @@ export default function Footer() {
     <section id="contact" className="py-16 sm:py-24 bg-white flex items-center justify-center min-h-[80vh]">
       <div className="w-full max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-12">
-          <h2 className="text-3xl sm:text-4xl lg:text-5xl font-normal text-gray-900 mb-4">Book Demo</h2>
+          <h2 className="text-3xl sm:text-4xl lg:text-5xl font-normal text-gray-900 mb-4">Contact us</h2>
           <p className="text-lg text-gray-600 mb-8">Experience the future of healthcare technology. Schedule a personalized demo with our team today.</p>
         </div>
         
@@ -64,7 +64,7 @@ export default function Footer() {
           
             <button
               type="submit"
-              className="bg-[#558195] hover:bg-[#466a79] text-white px-10 py-4 rounded-full font-semibold text-lg shadow-lg hover:shadow-xl hover:scale-105 transition-all duration-300"
+              className="bg-[#558195] hover:bg-[#466a79] text-white px-6 py-3 rounded-full font-semibold text-lg shadow-lg hover:shadow-xl hover:scale-105 transition-all duration-300"
             >
               Submit
             </button>

@@ -15,7 +15,7 @@ export default function Hero() {
               }}
               className="text-white mb-4 sm:mb-6 leading-tight"
             >
-              Advancing the future of health.
+              Advancing the future of health
             </h1>
             <p 
               style={{
@@ -24,11 +24,11 @@ export default function Hero() {
               }}
               className="text-white/90 mb-4 sm:mb-6 leading-relaxed"
             >
-              Tibbna is a next‑generation healthcare platform that unifies clinical workflows, strengthens patient safety, and modernizes the digital infrastructure of healthcare organizations. Built with deep regional insight and global health‑tech standards, it integrates EHR, LIS, clinical decision support, and ERP capabilities into one intelligent, interoperable healthcare platform.
+              A secure, scalable healthcare platform Integrated with informatic solutions designed to streamline clinical workflows and ensure real-time access to patient data across care settings. Engineered for interoperability and standards-based integration, Tibbna enables seamless data exchange between providers, laboratories, and administrative systems. The platform supports cost optimization, enhanced clinical outcomes, and regulatory compliance, while minimizing capital expenditure and infrastructure requirements.
             </p>
             <p 
               style={{
-                fontSize: 'clamp(12px, 2.5vw, 13.5px)',
+                fontSize: '16px',
                 fontFamily: 'Arial, Helvetica, sans-serif'
               }}
               className="text-[#E2E650] font-semibold mb-6 sm:mb-8"
@@ -50,12 +50,13 @@ export default function Hero() {
         </div>
 
         <div className="absolute bottom-10 left-0 right-0 flex justify-center px-4">
-          <button 
-            className="bg-white hover:bg-gray-100 text-[#558195] px-6 sm:px-8 py-3 sm:py-4 rounded-full text-sm sm:text-lg font-semibold transition-all transform hover:scale-105 shadow-2xl border-2 border-white"
-            style={{ fontFamily: 'Arial, Helvetica, sans-serif' }}
+          <a 
+            href="#contact"
+            style={{fontFamily: 'Arial, Helvetica, sans-serif'}}
+            className="bg-white hover:bg-gray-100 text-[#558195] px-4 sm:px-6 py-2 sm:py-3 rounded-full text-sm sm:text-lg font-semibold transition-all transform hover:scale-105 shadow-2xl border-2 border-white inline-block"
           >
-            Book Demo
-          </button>
+            Contact us
+          </a>
         </div>
       </div>
     </section>
