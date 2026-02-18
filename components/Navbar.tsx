@@ -23,59 +23,83 @@ export default function Navbar() {
 
   return (
     <nav className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${
-      isScrolled ? 'bg-[#558195] shadow-lg' : 'bg-transparent'
+      isScrolled ? 'bg-white shadow-lg' : 'bg-transparent'
     }`}>
       <div className="w-full px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-20 w-full">
           <div className="flex items-center space-x-3 cursor-pointer">
-            <Image
-              src="/images/logo.png"
-              alt="Tibbna Logo"
-              width={75}
-              height={75}
-              className="object-contain"
-            />
-            <span className="text-4xl font-normal transition-colors text-white">Tibbna</span>
+            <div className="p-1.5">
+              <Image
+                src="/images/logo.png"
+                alt="Tibbna Logo"
+                width={60}
+                height={60}
+                className="object-contain"
+              />
+            </div>
+            <span className={`text-4xl font-bold transition-colors ${
+              isScrolled ? 'text-gray-900' : 'text-white'
+            }`}>Tibbna</span>
           </div>
           
           <div className="hidden md:flex space-x-8 mr-32">
-            <a href="#home" className="transition-colors duration-200 font-medium text-white hover:text-blue-300">
+            <a href="#home" className={`transition-colors duration-200 font-medium ${
+              isScrolled ? 'text-gray-900 hover:text-[#558195]' : 'text-white hover:text-blue-300'
+            }`}>
               Home
             </a>
-            <a href="#about" className="transition-colors duration-200 font-medium text-white hover:text-blue-300">
+            <a href="#about" className={`transition-colors duration-200 font-medium ${
+              isScrolled ? 'text-gray-900 hover:text-[#558195]' : 'text-white hover:text-blue-300'
+            }`}>
               About
             </a>
-            <a href="#services" className="transition-colors duration-200 font-medium text-white hover:text-blue-300">
+            <a href="#services" className={`transition-colors duration-200 font-medium ${
+              isScrolled ? 'text-gray-900 hover:text-[#558195]' : 'text-white hover:text-blue-300'
+            }`}>
               Services
             </a>
-            <a href="#contact" className="transition-colors duration-200 font-medium text-white hover:text-blue-300">
+            <a href="#contact" className={`transition-colors duration-200 font-medium ${
+              isScrolled ? 'text-gray-900 hover:text-[#558195]' : 'text-white hover:text-blue-300'
+            }`}>
               Contact
             </a>
           </div>
 
-          <button 
-            className="md:hidden transition-colors text-white hover:text-blue-300"
+          <button
+            className={`md:hidden focus:outline-none ${
+              isScrolled ? 'text-gray-900' : 'text-white'
+            }`}
             aria-label="Toggle menu"
             onClick={() => setIsOpen(!isOpen)}
           >
-            {isOpen ? <X size={28} /> : <Menu size={28} />}
+            {isOpen ? <X className="w-6 h-6" /> : <Menu className="w-6 h-6" />}
           </button>
         </div>
       </div>
 
       {isOpen && (
-        <div className="md:hidden bg-primary/95 backdrop-blur-sm">
+        <div className={`md:hidden ${
+          isScrolled ? 'bg-white border-t border-gray-200' : 'bg-[#558195] border-t border-white/20'
+        }`}>
           <div className="px-4 py-4 space-y-3">
-            <a href="#home" onClick={() => setIsOpen(false)} className="block w-full text-left py-2 text-white hover:text-blue-300">
+            <a href="#home" className={`block transition-colors font-medium ${
+              isScrolled ? 'text-gray-900 hover:text-[#558195]' : 'text-white hover:text-blue-300'
+            }`}>
               Home
             </a>
-            <a href="#about" onClick={() => setIsOpen(false)} className="block w-full text-left py-2 text-white hover:text-blue-300">
+            <a href="#about" className={`block transition-colors font-medium ${
+              isScrolled ? 'text-gray-900 hover:text-[#558195]' : 'text-white hover:text-blue-300'
+            }`}>
               About
             </a>
-            <a href="#services" onClick={() => setIsOpen(false)} className="block w-full text-left py-2 text-white hover:text-blue-300">
+            <a href="#services" className={`block transition-colors font-medium ${
+              isScrolled ? 'text-gray-900 hover:text-[#558195]' : 'text-white hover:text-blue-300'
+            }`}>
               Services
             </a>
-            <a href="#contact" onClick={() => setIsOpen(false)} className="block w-full text-left py-2 text-white hover:text-blue-300">
+            <a href="#contact" className={`block transition-colors font-medium ${
+              isScrolled ? 'text-gray-900 hover:text-[#558195]' : 'text-white hover:text-blue-300'
+            }`}>
               Contact
             </a>
           </div>

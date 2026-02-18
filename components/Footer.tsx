@@ -77,14 +77,16 @@ export default function Footer() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex flex-col md:flex-row items-center justify-between gap-6 mb-6">
           <div className="flex items-center space-x-2">
-            <Image
-              src="/images/logo.png"
-              alt="Tibbna Logo"
-              width={32}
-              height={32}
-              className="object-contain"
-            />
-            <span className="text-xl font-bold">Tibbna</span>
+            <div className="p-1.5">
+              <Image
+                src="/images/logo.png"
+                alt="Tibbna Logo"
+                width={32}
+                height={32}
+                className="object-contain"
+              />
+            </div>
+            <span className="text-xl font-normal">Tibbna</span>
           </div>
           
           <div className="flex items-center space-x-4">
