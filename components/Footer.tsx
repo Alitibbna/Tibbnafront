@@ -8,8 +8,8 @@ export default function Footer() {
     <section id="contact" className="py-16 sm:py-24 bg-white flex items-center justify-center min-h-[80vh]">
       <div className="w-full max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-12">
-          <h2 className="text-3xl sm:text-4xl lg:text-5xl font-normal text-gray-900 mb-4">Contact us</h2>
-          <p className="text-lg text-gray-600 mb-8">Experience the future of healthcare technology. Schedule a personalized demo with our team today.</p>
+          <h2 className="text-3xl sm:text-4xl lg:text-5xl font-normal text-gray-900 mb-4">تواصل معنا</h2>
+          <p className="text-lg text-gray-600 mb-8">عش تجربة مستقبل تقنية الرعاية الصحية. احجز عرضاً تجريبياً مخصصاً مع فريقنا اليوم.</p>
         </div>
         
         <div className="max-w-2xl mx-auto">
@@ -21,7 +21,7 @@ export default function Footer() {
     <footer className="bg-[#558195] text-white py-8">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex flex-col md:flex-row items-center justify-between gap-6 mb-6">
-          <div className="flex items-center space-x-2">
+          <div className="flex items-center space-x-2 space-x-reverse">
             <div className="p-1.5">
               <Image
                 src="/images/logo.png"
@@ -52,7 +52,7 @@ export default function Footer() {
         
         <div className="border-t border-white/20 pt-4 text-center">
           <p className="text-xs text-white/60">
-            © 2026 by Tibbna. All rights reserved.
+            © 2026 بواسطة طبنا. جميع الحقوق محفوظة.
           </p>
         </div>
       </div>

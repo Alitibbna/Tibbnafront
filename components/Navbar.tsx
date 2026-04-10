@@ -27,7 +27,7 @@ export default function Navbar() {
     }`}>
       <div className="w-full px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-20 w-full">
-          <div className="flex items-center space-x-3 cursor-pointer">
+          <div className="flex items-center space-x-3 space-x-reverse cursor-pointer">
             <div className="p-1.5">
               <Image
                 src="/images/logo.png"
@@ -45,26 +45,26 @@ export default function Navbar() {
             >Tibbna</span>
           </div>
           
-          <div className="hidden md:flex space-x-8">
+          <div className="hidden md:flex space-x-8 space-x-reverse">
             <a href="#home" className={`transition-colors duration-200 font-medium ${
               isScrolled ? 'text-gray-900 hover:text-[#558195]' : 'text-white hover:text-blue-300'
             }`}>
-              Home
+              الرئيسية
             </a>
             <a href="#about" className={`transition-colors duration-200 font-medium ${
               isScrolled ? 'text-gray-900 hover:text-[#558195]' : 'text-white hover:text-blue-300'
             }`}>
-              About
+              من نحن
             </a>
             <a href="#services" className={`transition-colors duration-200 font-medium ${
               isScrolled ? 'text-gray-900 hover:text-[#558195]' : 'text-white hover:text-blue-300'
             }`}>
-              Services
+              خدماتنا
             </a>
             <a href="#contact" className={`transition-colors duration-200 font-medium ${
               isScrolled ? 'text-gray-900 hover:text-[#558195]' : 'text-white hover:text-blue-300'
             }`}>
-              Contact
+              تواصل معنا
             </a>
           </div>
 
@@ -88,22 +88,22 @@ export default function Navbar() {
             <a href="#home" className={`block transition-colors font-medium ${
               isScrolled ? 'text-gray-900 hover:text-[#558195]' : 'text-white hover:text-blue-300'
             }`}>
-              Home
+              الرئيسية
             </a>
             <a href="#about" className={`block transition-colors font-medium ${
               isScrolled ? 'text-gray-900 hover:text-[#558195]' : 'text-white hover:text-blue-300'
             }`}>
-              About
+              من نحن
             </a>
             <a href="#services" className={`block transition-colors font-medium ${
               isScrolled ? 'text-gray-900 hover:text-[#558195]' : 'text-white hover:text-blue-300'
             }`}>
-              Services
+              خدماتنا
             </a>
             <a href="#contact" className={`block transition-colors font-medium ${
               isScrolled ? 'text-gray-900 hover:text-[#558195]' : 'text-white hover:text-blue-300'
             }`}>
-              Contact
+              تواصل معنا
             </a>
           </div>
         </div>

@@ -19,103 +19,103 @@ export default function Services() {
   
   const services = [
     {
-      title: "Electronic Health Record (EHR) Solutions",
+      title: "حلول السجل الصحي الإلكتروني (EHR)",
       icon: FileText,
       items: [
-        "Implementation and customization of EHR modules",
-        "Clinical documentation and patient charting",
-        "Order management and results review",
-        "Interoperability with labs, radiology, and pharmacy"
+        "تطبيق وتخصيص وحدات السجل الصحي الإلكتروني",
+        "التوثيق السريري وملفات المرضى",
+        "إدارة الطلبات ومراجعة النتائج",
+        "التشغيل البيني مع المختبرات والأشعة والصيدلية"
       ]
     },
     {
-      title: "Laboratory Information System (LIS) Services",
+      title: "خدمات نظام معلومات المختبر (LIS)",
       icon: FlaskConical,
       items: [
-        "Lab workflow automation",
-        "Test catalog and panel configuration",
-        "Analyzer and device integration",
-        "Sample tracking and result validation",
-        "Reporting and quality control support"
+        "أتمتة سير عمل المختبر",
+        "تكوين كتالوج الفحوصات واللوحات",
+        "تكامل المحللات والأجهزة",
+        "تتبع العينات والتحقق من النتائج",
+        "دعم إعداد التقارير وضبط الجودة"
       ]
     },
     {
-      title: "Clinical Decision Support (CDS)",
+      title: "دعم القرار السريري (CDS)",
       icon: Brain,
       items: [
-        "Alerts, reminders, and clinical rules",
-        "Medication safety checks",
-        "Diagnostic support tools",
-        "Evidence-based care pathways"
+        "تنبيهات وتذكيرات وقواعد سريرية",
+        "فحوصات سلامة الدواء",
+        "أدوات دعم التشخيص",
+        "مسارات الرعاية القائمة على الأدلة"
       ]
     },
     {
-      title: "Healthcare ERP Solutions",
+      title: "حلول تخطيط موارد المؤسسات الصحية (ERP)",
       icon: Building2,
       items: [
-        "HR, payroll, and staff scheduling",
-        "Inventory and supply chain management",
-        "Procurement and finance modules",
-        "Asset and facility management"
+        "إدارة الموارد البشرية والرواتب وجدولة العمل",
+        "إدارة المخزون وسلسلة التوريد",
+        "وحدات المشتريات والشؤون المالية",
+        "إدارة الأصول والمرافق"
       ]
     },
     {
-      title: "Interoperability & Integration Services",
+      title: "خدمات التشغيل البيني والتكامل",
       icon: Network,
       items: [
-        "FHIR, HL7, and openEHR integrations",
-        "API development and system connectivity",
-        "Health Information Exchange (HIE) support",
-        "Master Patient Index (MPI) setup"
+        "تكاملات FHIR وHL7 وopenEHR",
+        "تطوير واجهات البرمجة (API) وربط الأنظمة",
+        "دعم تبادل المعلومات الصحية (HIE)",
+        "إعداد فهرس المرضى الرئيسي (MPI)"
       ]
     },
     {
-      title: "Pharmacy Information System",
+      title: "نظام معلومات الصيدلية",
       icon: Pill,
       items: [
-        "Review orders",
-        "Drug dispensing",
-        "Drugs info"
+        "مراجعة الطلبات",
+        "صرف الأدوية",
+        "معلومات الدواء"
       ]
     },
     {
-      title: "Cybersecurity & Compliance",
+      title: "الأمن السيبراني والامتثال",
       icon: Shield,
       items: [
-        "Data protection and encryption",
-        "Access control and audit logging",
-        "Compliance with regional regulations",
-        "Risk and vulnerability assessments"
+        "حماية البيانات والتشفير",
+        "التحكم في الوصول وتسجيل التدقيق",
+        "الامتثال للوائح والأنظمة الإقليمية",
+        "تقييم المخاطر والثغرات الأمنية"
       ]
     },
     {
-      title: "Cloud Hosting & Infrastructure",
+      title: "الاستضافة السحابية والبنية التحتية",
       icon: Cloud,
       items: [
-        "Cloud migration and deployment",
-        "Data residency solutions",
-        "High-availability hosting",
-        "Backup and disaster recovery"
+        "الترحيل إلى السحابة والنشر",
+        "حلول إقامة البيانات وفق المتطلبات",
+        "استضافة عالية التوفر",
+        "النسخ الاحتياطي والتعافي من الكوارث"
       ]
     },
     {
-      title: "Custom Healthcare Software Development",
+      title: "تطوير برمجيات صحية مخصصة",
       icon: Code,
       items: [
-        "Tailored clinical applications",
-        "Workflow automation tools",
-        "Mobile health solutions",
-        "Integration with existing hospital systems"
+        "تطبيقات سريرية مصمَّمة حسب الاحتياج",
+        "أدوات أتمتة سير العمل",
+        "حلول الصحة الرقمية عبر الهاتف المحمول",
+        "التكامل مع أنظمة المستشفى القائمة"
       ]
     },
     {
-      title: "Implementation, Training & Support",
+      title: "التطبيق والتدريب والدعم الفني",
       icon: Headphones,
       items: [
-        "End-to-end system deployment",
-        "Staff training and onboarding",
-        "24/7 technical support",
-        "Continuous optimization and updates"
+        "نشر شامل للنظام من البداية حتى النهاية",
+        "تدريب الكوادر والتأهيل",
+        "دعم فني على مدار الساعة طوال الأسبوع",
+        "تحسين مستمر وتحديثات دورية"
       ]
     }
   ]
@@ -123,7 +123,7 @@ export default function Services() {
   return (
     <section id="services" className="py-16 sm:py-24 bg-blue-50">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="text-left mb-12 mobile-margin">
+        <div className="text-right mb-12 mobile-margin">
           <h2 
             style={{
               fontSize: '45px',
@@ -133,7 +133,7 @@ export default function Services() {
             }}
             className="text-gray-900 mb-4"
           >
-            Services
+            خدماتنا
           </h2>
         </div>
 
@@ -183,7 +183,7 @@ export default function Services() {
                   <ul className="space-y-1">
                     {service.items.map((item, itemIndex) => (
                       <li key={itemIndex} className="flex items-start">
-                        <span className="text-[#E2E650] mr-1 mt-0.5 text-xs">•</span>
+                        <span className="text-[#E2E650] ml-1 mt-0.5 text-xs">•</span>
                         <span 
                           style={{
                             fontSize: '12px',

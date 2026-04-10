@@ -1,12 +1,16 @@
 import type { Metadata } from 'next'
-import { Inter } from 'next/font/google'
+import { Noto_Sans_Arabic } from 'next/font/google'
 import './globals.css'
 
-const inter = Inter({ subsets: ['latin'] })
+const notoSansArabic = Noto_Sans_Arabic({
+  subsets: ['arabic'],
+  weight: ['300', '400', '500', '600', '700'],
+  display: 'swap',
+})
 
 export const metadata: Metadata = {
-  title: 'Tibbna - Advanced Healthcare IT Solutions',
-  description: 'Empowering health organizations with secure, intelligent, and innovative health IT solutions',
+  title: 'طبنا - حلول تقنية متقدمة للرعاية الصحية',
+  description: 'تمكين المنظمات الصحية بحلول تقنية معلومات صحية آمنة وذكية ومبتكرة',
 }
 
 export default function RootLayout({
@@ -15,8 +19,8 @@ export default function RootLayout({
   children: React.ReactNode
 }) {
   return (
-    <html lang="en">
-      <body className={inter.className}>{children}</body>
+    <html lang="ar" dir="rtl">
+      <body className={notoSansArabic.className}>{children}</body>
     </html>
   )
 }

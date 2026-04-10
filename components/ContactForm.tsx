@@ -37,7 +37,7 @@ export default function ContactForm() {
       setTimeout(() => setStatus('idle'), 5000)
     } catch (error) {
       setStatus('error')
-      setErrorMessage('Failed to send message. Please try again.')
+      setErrorMessage('حدث خطأ أثناء إرسال الرسالة. يُرجى المحاولة مرة أخرى.')
     }
   }
 
@@ -53,7 +53,7 @@ export default function ContactForm() {
       <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
         <div>
           <label htmlFor="firstName" className="block text-sm font-medium text-gray-700 mb-2">
-            First name *
+            الاسم الأول *
           </label>
           <input
             type="text"
@@ -66,7 +66,7 @@ export default function ContactForm() {
         </div>
         <div>
           <label htmlFor="lastName" className="block text-sm font-medium text-gray-700 mb-2">
-            Last name *
+            اسم العائلة *
           </label>
           <input
             type="text"
@@ -81,7 +81,7 @@ export default function ContactForm() {
       
       <div>
         <label htmlFor="email" className="block text-sm font-medium text-gray-700 mb-2">
-          Email *
+          البريد الإلكتروني *
         </label>
         <input
           type="email"
@@ -95,21 +95,21 @@ export default function ContactForm() {
       
       <div>
         <label htmlFor="message" className="block text-sm font-medium text-gray-700 mb-2">
-          Write a message
+          اكتب رسالتك
         </label>
         <textarea
           id="message"
           rows={5}
           value={formData.message}
           onChange={handleChange}
-          placeholder="Write a message"
+          placeholder="اكتب رسالتك"
           className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-primary focus:border-transparent transition-all resize-none"
         />
       </div>
 
       {status === 'success' && (
         <div className="bg-green-50 border border-green-200 text-green-800 px-4 py-3 rounded-lg">
-          Thank you! Your message has been sent successfully.
+          شكراً لك! تم إرسال رسالتك بنجاح.
         </div>
       )}
 
@@ -124,7 +124,7 @@ export default function ContactForm() {
         disabled={status === 'loading'}
         className="bg-[#558195] hover:bg-[#466a79] text-white px-6 py-3 rounded-full font-semibold text-lg shadow-lg hover:shadow-xl hover:scale-105 transition-all duration-300 disabled:opacity-50 disabled:cursor-not-allowed"
       >
-        {status === 'loading' ? 'Sending...' : 'Submit'}
+        {status === 'loading' ? 'جارِ الإرسال...' : 'إرسال'}
       </button>
     </form>
   )

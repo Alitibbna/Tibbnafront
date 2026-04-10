@@ -5,7 +5,7 @@ export default function WhyTibbna() {
   return (
     <section id="about" className="py-16 sm:py-24 bg-gray-50">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="text-left mb-12 mobile-margin">
+        <div className="text-right mb-12 mobile-margin">
           <h2 
             style={{
               fontSize: '45px',
@@ -15,7 +15,7 @@ export default function WhyTibbna() {
             }}
             className="text-gray-900 mb-4"
           >
-            About
+            من نحن
           </h2>
         </div>
 
@@ -30,13 +30,13 @@ export default function WhyTibbna() {
           </div>
           <div>
             <p className="text-lg sm:text-xl text-gray-600 leading-relaxed mb-6">
-              Tibbna is a next‑generation healthcare platform that unifies clinical workflows, strengthens patient safety, and modernizes the digital infrastructure of healthcare organizations. Built with deep regional insight and global health‑tech standards, it integrates EHR, LIS, clinical decision support, and ERP capabilities into one intelligent, interoperable healthcare platform.
+              طبنا منصة رعاية صحية من الجيل التالي، تُوحِّد سير العمل السريري، وتعزز سلامة المريض، وتُحدّث البنية التحتية الرقمية للمنظمات الصحية. بُنيت بفهم عميق لخصائص المنطقة ووفق معايير تقنية الصحة العالمية، وتدمج قدرات السجل الصحي الإلكتروني ونظام معلومات المختبر ودعم القرار السريري وتخطيط الموارد في منصة صحية واحدة متكاملة.
             </p>
             <p className="text-lg sm:text-xl text-gray-600 leading-relaxed mb-6">
-              By streamlining how clinical data moves across the patient journey, Tibbna helps healthcare organizations overcome fragmented systems and operate with greater clarity, speed, and confidence.
+              من خلال تبسيط تدفق البيانات السريرية عبر رحلة المريض، تساعد طبنا المنظمات الصحية على تجاوز أنظمتها المتفرقة، والعمل بوضوح وسرعة وثقة أكبر.
             </p>
             <p className="text-lg sm:text-xl text-gray-600 leading-relaxed">
-              Supported by a team of experienced healthcare, technology, and operations professionals, Tibbna delivers solutions that are technically robust, clinically meaningful, and designed for reliable, scalable, and future‑ready digital transformation.
+              بدعم فريق من المتخصصين في الرعاية الصحية والتقنية والعمليات، تُقدّم طبنا حلولاً متينة تقنياً، ذات قيمة سريرية حقيقية، مصمَّمة لتحول رقمي موثوق وقابل للتوسع وجاهز للمستقبل.
             </p>
           </div>
         </div>
@@ -46,11 +46,9 @@ export default function WhyTibbna() {
             <div className="w-16 h-16 bg-white/20 rounded-full flex items-center justify-center mb-6">
               <Database className="w-8 h-8 text-white" />
             </div>
-            <h3 className="text-xl font-bold text-white mb-4">Unified Healthcare Ecosystem</h3>
+            <h3 className="text-xl font-bold text-white mb-4">منظومة رعاية صحية موحّدة</h3>
             <p className="text-white/90 leading-relaxed">
-              Brings together EHR, LIMS, Pharmacy, Radiology, ERP, and the Patient App on one 
-              open‑standard platform, delivering secure, real‑time access to medical data — 
-              anywhere, anytime.
+              تجمع بين السجل الصحي الإلكتروني ونظام معلومات المختبر والصيدلية والأشعة وتخطيط الموارد وتطبيق المريض في منصة واحدة مفتوحة المعايير، تُتيح وصولاً آمناً وفورياً إلى البيانات الطبية في أي وقت ومن أي مكان.
             </p>
           </div>
 
@@ -58,10 +56,9 @@ export default function WhyTibbna() {
             <div className="w-16 h-16 bg-white/20 rounded-full flex items-center justify-center mb-6">
               <Cog className="w-8 h-8 text-white" />
             </div>
-            <h3 className="text-xl font-bold text-white mb-4">Customized Healthcare Solutions</h3>
+            <h3 className="text-xl font-bold text-white mb-4">حلول رعاية صحية مخصصة</h3>
             <p className="text-white/90 leading-relaxed">
-              A flexible, modular platform delivering tailored solutions that meet the health 
-              organizations & healthcare providers needs.
+              منصة مرنة ومعيارية تُقدّم حلولاً مصمَّمة خصيصاً لتلبية احتياجات المنظمات الصحية ومقدمي الرعاية على حد سواء.
             </p>
           </div>
 
@@ -69,11 +66,9 @@ export default function WhyTibbna() {
             <div className="w-16 h-16 bg-white/20 rounded-full flex items-center justify-center mb-6">
               <Zap className="w-8 h-8 text-white" />
             </div>
-            <h3 className="text-xl font-bold text-white mb-4">Faster Deployment & Lower Cost</h3>
+            <h3 className="text-xl font-bold text-white mb-4">نشر أسرع وتكلفة أقل</h3>
             <p className="text-white/90 leading-relaxed">
-              Modular architecture allows phased implementation, which is cloud‑ready and 
-              data‑center friendly, as well as Reduces infrastructure and maintenance costs 
-              compared to legacy systems.
+              البنية المعيارية تتيح التطبيق على مراحل، وهي جاهزة للسحابة ومركز البيانات، مع تخفيض ملحوظ في تكاليف البنية التحتية والصيانة مقارنةً بالأنظمة التقليدية.
             </p>
           </div>
         </div>
