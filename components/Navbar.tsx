@@ -32,8 +32,8 @@ export default function Navbar() {
               <Image
                 src="/images/logo.png"
                 alt="Tibbna Logo"
-                width={50}
-                height={50}
+                width={62}
+                height={62}
                 className="object-contain"
               />
             </div>
