@@ -8,8 +8,7 @@ export default function Footer() {
     <section id="contact" className="py-16 sm:py-24 bg-white flex items-center justify-center min-h-[80vh]">
       <div className="w-full max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-12">
-          <h2 className="text-3xl sm:text-4xl lg:text-5xl font-normal text-gray-900 mb-4">حلول ذكية لرعاية صحية أفضل</h2>
-          <p className="text-lg text-gray-600 mb-8">طبنا هي منصّة الكترونية ذكية تعيد تشكيل مستقبل للرعاية الصحية حيث تجمع بين الذكاء الرقمي، سهولة الاستخدام، والمعايير العالمية للجودة. تقدّم المنصّة حلولاً موحّدة للمستشفيات، العيادات، المختبرات، والصيدليات لتمكينهم من إدارة البيانات بكفاءة، وتحسين جودة الخدمات، وتسريع اتخاذ القرار عبر أنظمة مترابطة وآمنة تدعم سير العمل السريري ورحلة علاج المريض داخل المرافق الصحية.</p>
+          <p className="text-xl sm:text-2xl lg:text-3xl font-normal text-gray-900 mb-4">احجز موعد لمعرفة المزيد عن حلول طبنا</p>
         </div>
         
         <div className="max-w-2xl mx-auto">

@@ -53,7 +53,7 @@ export default function ContactForm() {
       <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
         <div>
           <label htmlFor="firstName" className="block text-sm font-medium text-gray-700 mb-2">
-            الاسم الأول *
+            الاسم *
           </label>
           <input
             type="text"
@@ -66,7 +66,7 @@ export default function ContactForm() {
         </div>
         <div>
           <label htmlFor="lastName" className="block text-sm font-medium text-gray-700 mb-2">
-            اسم العائلة *
+            رقم الهاتف *
           </label>
           <input
             type="text"
