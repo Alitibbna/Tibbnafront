@@ -9,7 +9,6 @@ export default function Hero() {
             <h1 
               style={{
                 fontSize: 'clamp(28px, 5vw, 45px)',
-                fontFamily: 'Arial, Helvetica, sans-serif',
                 fontWeight: 400,
                 letterSpacing: '-0.03em'
               }}
@@ -19,19 +18,17 @@ export default function Hero() {
             </h1>
             <p 
               style={{
-                fontSize: 'clamp(16px, 3vw, 20px)',
-                fontFamily: 'Arial, Helvetica, sans-serif'
+                fontSize: 'clamp(16px, 3vw, 20px)'
               }}
-              className="text-white/90 mb-4 sm:mb-6 leading-relaxed"
+              className="font-arabic text-white/90 mb-4 sm:mb-6 leading-relaxed"
             >
               طبنا هي منصّة الكترونية ذكية تعيد تشكيل مستقبل للرعاية الصحية حيث تجمع بين الذكاء الرقمي، سهولة الاستخدام، والمعايير العالمية للجودة. تقدّم المنصّة حلولاً موحّدة للمستشفيات، العيادات، المختبرات، والصيدليات لتمكينهم من إدارة البيانات بكفاءة، وتحسين جودة الخدمات، وتسريع اتخاذ القرار عبر أنظمة مترابطة وآمنة تدعم سير العمل السريري ورحلة علاج المريض داخل المرافق الصحية.
             </p>
             <p 
               style={{
-                fontSize: '16px',
-                fontFamily: 'Arial, Helvetica, sans-serif'
+                fontSize: '16px'
               }}
-              className="text-[#E2E650] font-semibold mb-6 sm:mb-8"
+              className="font-arabic text-[#E2E650] font-semibold mb-6 sm:mb-8"
             >
               رحلة المريض من التسجيل حتى الخروج في منصة واحدة
             </p>
@@ -52,7 +49,6 @@ export default function Hero() {
         <div className="absolute bottom-10 left-0 right-0 flex justify-center px-4">
           <a 
             href="#contact"
-            style={{fontFamily: 'Arial, Helvetica, sans-serif'}}
             className="bg-white hover:bg-gray-100 text-[#558195] px-4 sm:px-6 py-2 sm:py-3 rounded-full text-sm sm:text-lg font-semibold transition-all transform hover:scale-105 shadow-2xl border-2 border-white inline-block"
           >
             تواصل معنا

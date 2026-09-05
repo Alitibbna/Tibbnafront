@@ -8,8 +8,13 @@
   box-sizing: border-box;
 }
 
-*, body, html {
-  font-family: 'Noto Sans Arabic', Arial, Helvetica, sans-serif !important;
+body {
+  font-family: var(--font-arabic), sans-serif;
+}
+
+[dir='rtl'] body {
+  font-size: 1.08rem;
+  line-height: 1.75;
 }
 
 html {

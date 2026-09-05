@@ -8,7 +8,7 @@ export default function Footer() {
     <section id="contact" className="py-16 sm:py-24 bg-white flex items-center justify-center min-h-[80vh]">
       <div className="w-full max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-12">
-          <p className="text-xl sm:text-2xl lg:text-3xl font-normal text-gray-900 mb-4">احجز موعد لمعرفة المزيد عن حلول طبنا</p>
+          <p className="font-arabic text-xl sm:text-2xl lg:text-3xl font-normal text-gray-900 mb-4">احجز موعد لمعرفة المزيد عن حلول طبنا</p>
         </div>
         
         <div className="max-w-2xl mx-auto">
@@ -50,7 +50,7 @@ export default function Footer() {
         </div>
         
         <div className="border-t border-white/20 pt-4 text-center">
-          <p className="text-xs text-white/60">
+          <p className="font-arabic text-xs text-white/60">
             © 2026 بواسطة طبنا. جميع الحقوق محفوظة.
           </p>
         </div>

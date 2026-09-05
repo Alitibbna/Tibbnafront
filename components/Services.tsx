@@ -127,7 +127,6 @@ export default function Services() {
           <h2 
             style={{
               fontSize: '45px',
-              fontFamily: 'Arial, Helvetica, sans-serif',
               fontWeight: 400,
               letterSpacing: '-0.03em'
             }}
@@ -163,7 +162,6 @@ export default function Services() {
                   <h3 
                     style={{
                       fontSize: '16px',
-                      fontFamily: 'Arial, Helvetica, sans-serif',
                       fontWeight: 600,
                       lineHeight: '1.2'
                     }}
@@ -186,8 +184,7 @@ export default function Services() {
                         <span className="text-[#E2E650] ml-1 mt-0.5 text-xs">•</span>
                         <span 
                           style={{
-                            fontSize: '12px',
-                            fontFamily: 'Arial, Helvetica, sans-serif'
+                            fontSize: '12px'
                           }}
                           className="text-gray-600 leading-relaxed"
                         >
