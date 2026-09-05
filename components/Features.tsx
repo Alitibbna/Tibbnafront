@@ -6,7 +6,6 @@ export default function Features() {
           <h2 
             style={{
               fontSize: '45px',
-              fontFamily: 'Arial, Helvetica, sans-serif',
               fontWeight: 400,
               letterSpacing: '-0.03em'
             }}
@@ -16,10 +15,9 @@ export default function Features() {
           </h2>
           <p 
             style={{
-              fontSize: '20px',
-              fontFamily: 'Arial, Helvetica, sans-serif'
+              fontSize: '20px'
             }}
-            className="text-gray-600 leading-relaxed"
+            className="font-arabic text-gray-600 leading-relaxed"
           >
             تتميز حلول طبنا بسهولة الاستخدام، الدقة العالية، والسرعة في أداء المهام، لأنها صُممت ونُفذت وفق احتياجات الواقع الصحي وبما يتوافق مع المعايير العالمية. كما أنها مدعومة بتقنيات الذكاء الاصطناعي التي تُسهّل عمل مقدمي الرعاية الصحية والعاملين وتمكّنهم من تقديم خدمات أفضل بجهد أقل ووقت أسرع، مما يرفع كفاءة الأداء ويحسّن تجربة المريض داخل المرافق الصحية
           </p>

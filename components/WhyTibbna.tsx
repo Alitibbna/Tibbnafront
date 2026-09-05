@@ -9,7 +9,6 @@ export default function WhyTibbna() {
           <h2 
             style={{
               fontSize: '45px',
-              fontFamily: 'Arial, Helvetica, sans-serif',
               fontWeight: 400,
               letterSpacing: '-0.03em'
             }}
@@ -29,13 +28,13 @@ export default function WhyTibbna() {
             />
           </div>
           <div>
-            <p className="text-lg sm:text-xl text-gray-600 leading-relaxed mb-6">
+            <p className="font-arabic text-lg sm:text-xl text-gray-600 leading-relaxed mb-6">
               طبنا هي شركة عراقية عالمية رائدة بتطوير أنظمة الصحة الالكترونية، أنظمة إدارة المستشفيات والعيادات، وأنظمة الموارد البشرية والحسابات ضمن المستشفيات، العيادات، المختبرات، والصيدليات. يدعم منصة طبنا فريق كامل من مختلف التخصصات مثل الكوادر الطبية، تكنولوجيا وأنظمة الصحة الالكترونية مع خبرة عالمية طويلة.
             </p>
-            <p className="text-lg sm:text-xl text-gray-600 leading-relaxed mb-6">
+            <p className="font-arabic text-lg sm:text-xl text-gray-600 leading-relaxed mb-6">
               يتناسب نموذجنا الفريد مع مختلف احتياجات الرعاية الصحية ويدعم جميع التخصصات الطبية وذلك من خلال توفير الحلول وواجهة المستخدم التي تنساب سير العمل. نحن ندعم مشروعك منذ البداية من اختيار الأنظمة التي تناسب احتياجك الى التحضير والتنفيذ. نوفر ايضا التدريب لجميع الكوادر الطبية والعاملين وبالإضافة الى الخدمات ما بعد البيع سواء كانت في الموقع او عن بعد.
             </p>
-            <p className="text-lg sm:text-xl text-gray-600 leading-relaxed">
+            <p className="font-arabic text-lg sm:text-xl text-gray-600 leading-relaxed">
               مع جميع التحديات التي يواجها قطاع النظام الصحي العالمي اليوم من نقص القوى العاملة، وارتفاع التكاليف، وشيخوخة السكان، والضغوط التنظيمية، وفجوات التحول الرقمي، ومخاطر أمن البيانات. استطاعت طبنا على إيجاد الحلول التي يمكنها التغلب على العديد من هذه التحديات وتوفير إدارة وسيطرة في المراكز الصحية التي تستخدم حلول طبنا.
             </p>
           </div>
@@ -47,7 +46,7 @@ export default function WhyTibbna() {
               <Database className="w-8 h-8 text-white" />
             </div>
             <h3 className="text-xl font-bold text-white mb-4">منظومة رعاية صحية موحّدة</h3>
-            <p className="text-white/90 leading-relaxed">
+            <p className="font-arabic text-white/90 leading-relaxed">
               تجمع بين السجل الصحي الإلكتروني ونظام معلومات المختبر والصيدلية والأشعة وتخطيط الموارد وتطبيق المريض في منصة واحدة مفتوحة المعايير، تُتيح وصولاً آمناً وفورياً إلى البيانات الطبية في أي وقت ومن أي مكان.
             </p>
           </div>
@@ -57,7 +56,7 @@ export default function WhyTibbna() {
               <Cog className="w-8 h-8 text-white" />
             </div>
             <h3 className="text-xl font-bold text-white mb-4">حلول رعاية صحية مخصصة</h3>
-            <p className="text-white/90 leading-relaxed">
+            <p className="font-arabic text-white/90 leading-relaxed">
               منصة مرنة ومعيارية تُقدّم حلولاً مصمَّمة خصيصاً لتلبية احتياجات المنظمات الصحية ومقدمي الرعاية على حد سواء.
             </p>
           </div>
@@ -67,7 +66,7 @@ export default function WhyTibbna() {
               <Zap className="w-8 h-8 text-white" />
             </div>
             <h3 className="text-xl font-bold text-white mb-4">نشر أسرع وتكلفة أقل</h3>
-            <p className="text-white/90 leading-relaxed">
+            <p className="font-arabic text-white/90 leading-relaxed">
               البنية المعيارية تتيح التطبيق على مراحل، وهي جاهزة للسحابة ومركز البيانات، مع تخفيض ملحوظ في تكاليف البنية التحتية والصيانة مقارنةً بالأنظمة التقليدية.
             </p>
           </div>
@@ -77,7 +76,7 @@ export default function WhyTibbna() {
               <Database className="w-8 h-8 text-white" />
             </div>
             <h3 className="text-xl font-bold text-white mb-4">نظام إدارة المستشفيات</h3>
-            <p className="text-white/90 leading-relaxed">
+            <p className="font-arabic text-white/90 leading-relaxed">
               نظام متكامل لإدارة جميع عمليات المستشفى من تسجيل المرضى والمواعيد والفواتير وإدارة الأسرّة والمخزون والموارد البشرية، مصمم لتحسين الكفاءة وتقليل الأخطاء وتوفير رعاية أفضل.
             </p>
           </div>

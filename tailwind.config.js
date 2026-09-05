@@ -10,9 +10,11 @@ module.exports = {
       colors: {
         primary: '#558195',
         accent: '#E2E650',
+        ink: '#191714',
       },
       fontFamily: {
-        sans: ['Arial', 'Helvetica', 'sans-serif'],
+        sans: ['var(--font-arabic)', 'sans-serif'],
+        arabic: ['var(--font-arabic)', 'sans-serif'],
       },
     },
   },
